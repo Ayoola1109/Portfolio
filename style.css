@@ -1,0 +1,268 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  /* background: linear-gradient(rgb(100,100,20)) , url(img/wp7453794.jpg); */
+  /* background: url(img/wp7453794.jpg)no-repeat  ; */
+  background-size: cover;
+  background-color: #610088;
+}
+nav {
+  background-color: white;
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 5px 8px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+li {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 5px 4px;
+}
+ul > li >a {
+  color: black;
+  font-weight: 400;
+  padding: 5px;
+  transition: 0.5s ease-in;
+}
+li > a:hover {
+  color: #610088;
+  border-bottom: 3px solid purple;
+  transition: 0.5s ease-out;
+  padding-bottom: 2px;
+}
+nav > a> span {
+  font-size: 35px;
+  font-weight: 700;
+  color: purple;
+}
+section {
+  float: left;
+  position: absolute;
+  top: 200px;
+  margin-left: 110px;
+  color: white;
+}
+section h1 {
+  color: cyan;
+  font-size: 70px;
+  margin-bottom: -30;
+  padding-bottom: 0;
+}
+section h2 {
+  color: cyan;
+  position: relative;
+  font-size: 60px;
+  padding-top: 0;
+  margin-top: -20px ;
+}
+section h3 {
+  position: relative;
+  margin-top: -10px;
+}
+section p {
+  width: 54%;
+}
+button {
+  background: transparent;
+  position: relative;
+  top: 30px;
+ border: 2px solid white;
+ border-radius: 50px;
+ color: white;
+ padding: 10px 20px;
+ font-size: 1.3em;
+ font-weight: 600;
+ margin: 0;
+ margin-right: 20px;
+ transition: 800ms ease-in;
+}
+button:hover {
+  background-color: cyan;
+  color: purple;
+  border: 1px purple solid;
+  cursor: pointer;
+  transition: 800ms ease-out;
+}
+.icon {
+  display: flex;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+.bi {
+ margin-right: 20px;
+ transition: 400ms ease-in;
+}
+.bi:hover {
+  color:  cyan;
+  border: transparent;
+  transition: 400ms ease-out;
+  cursor: pointer;
+}
+.img{
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  right: 100px;
+  background: url(img/profile_pic_2-removebg-preview.png);
+  background-position: center;
+  background-color: cyan;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  float: right;
+  transition: 0.5s ease-in;
+}
+.img:hover {
+  background-image: url(img/profile_pic_2-removebg-preview\ 1.png);
+  /* width: 300px;
+  height: 300px; */
+  background-position: center;
+  background-size: contain;
+  transition: 0.5s ease-out;
+}
+
+#about {
+  position: relative;
+  top: 650px;
+  color: purple;
+  background-color: cyan;
+ padding: 30px 0px;
+ height: 100vh;
+}
+#about h1{
+  color: purple;
+  margin-left: 110px;
+  text-align: left;
+  font-size: 40px;
+}
+#about p {
+  margin-left: 110px;
+  margin-top: 20px;
+  font-size: larger;
+}
+#portfolio {
+  position: relative;
+  top: 700px;
+  margin-left: 110px;
+  height: 100vh;
+
+}
+#portfolio h1 {
+  margin-bottom: -200px;
+  color: cyan;
+  font-size: 40px;
+}
+#portfolio h1::after {
+  content:  ' ';
+  background-color: cyan;
+  color: rgb(255, 255, 255);
+  height: 4px;
+  border-radius: 5px;
+  width: 5em;
+  position: absolute;
+  top: 60px;
+  left: -10px;
+
+}
+.projects {
+  position: relative;
+  /* top: -160px; */
+  top:  250px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+  
+}
+.project {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+.project h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.project p {
+}
+#project1 {
+  width: 100%;
+}
+#project2 {
+  width: 100%;
+}
+#project3 {
+  width: 100%;
+}
+.project a {
+  color: cyan;
+  border: 2px solid cyan;
+  padding: 5px;
+  position: relative;
+  top: 25px;
+} 
+.project a:hover {
+  color: white ;
+  border: 2px solid white;
+}
+#contact {
+  position: relative;
+  top: 45em;
+  padding-top: 60px;
+  background-color: cyan;
+  height: 100vh;
+}
+#contact h1,form{
+  margin-left: 110px;
+}
+#contact h2 {
+  margin-top: 30px;
+}
+label {
+   font-size: larger;
+}
+input {
+  width: 40%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid purple;
+  padding: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+input:focus {
+  background-color: transparent;
+  border: 1px solid purple;
+}
+#input {
+  height: 150px;
+  font-size: 20px;
+}
+#button {
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  top: 510px;
+  left: 110px;
+  background-color: purple;
+}
+#button:hover {
+  color: cyan;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  top: 45em;
+}
+
+
